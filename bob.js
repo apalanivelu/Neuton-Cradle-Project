@@ -13,7 +13,7 @@ class Bob {
 
     display() {
         var pos = this.body.position;
-        ellipseMode(CENTER);
+        ellipseMode(RADIUS);
         ellipse(pos.x, pos.y, this.radius);
     }
 }
